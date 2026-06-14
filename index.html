@@ -1,73 +1,309 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arun Verma | IIT Kanpur</title>
-    <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; background-color: #fafafa; }
-        h1 { color: #111; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        h2 { color: #222; margin-top: 30px; }
-        ul { padding-left: 20px; }
-        li { margin-bottom: 8px; }
-        .highlight { font-weight: bold; color: #0056b3; }
-        hr { border: 0; border-top: 1px solid #ddd; margin: 30px 0; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arun Verma | IIT Kanpur</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin:auto;
+    padding:20px;
+    line-height:1.7;
+    background:#fafafa;
+    color:#333;
+}
+
+nav{
+    text-align:center;
+    margin-bottom:30px;
+    position:sticky;
+    top:0;
+    background:white;
+    padding:10px;
+    border-bottom:1px solid #ddd;
+}
+
+nav a{
+    text-decoration:none;
+    margin:0 15px;
+    color:#0056b3;
+    font-weight:bold;
+}
+
+.profile{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    margin-bottom:40px;
+}
+
+.profile img{
+    width:200px;
+    border-radius:50%;
+    border:3px solid #ddd;
+}
+
+h1,h2{
+    color:#111;
+}
+
+section{
+    margin-top:50px;
+}
+
+details{
+    margin:10px 0;
+}
+
+ul li{
+    margin-bottom:8px;
+}
+
+.highlight{
+    color:#0056b3;
+    font-weight:bold;
+}
+
+.links a{
+    display:block;
+    margin:8px 0;
+    text-decoration:none;
+    color:#0056b3;
+}
+
+footer{
+    margin-top:60px;
+    text-align:center;
+    color:gray;
+}
+</style>
+
 </head>
+
 <body>
 
-    <h1>Arun Verma</h1>
-    <p><strong>M.Sc. Mathematics Student</strong><br>
-    Indian Institute of Technology (IIT) Kanpur<br>
-    Email: [vermaa25@iitk.ac.in]</p>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#research">Research</a>
+<a href="#courses">Courses</a>
+<a href="#computational">Computational Math</a>
+<a href="#notes">Notes</a>
+<a href="#youtube">YouTube</a>
+<a href="#links">Links</a>
+<a href="#contact">Contact</a>
+</nav>
 
-    <hr>
+<section id="home">
 
-    <h2>Biography</h2>
-    <p>I am an M.Sc. Mathematics student at the <span class="highlight">Indian Institute of Technology (IIT) Kanpur</span>. My mathematical journey is driven by a deep curiosity for abstract algebraic structures and a passion for finding intuitive ways to visualize and interpret them. This intersection of rigorous abstraction and geometric intuition is precisely why I am drawn to Topology, Algebra, and their synthesis in Algebraic Topology.</p>
-    
-    <p>Currently, I am a Summer Research Project fellow at <span class="highlight">IISER Mohali</span>, working in the fascinating field of <strong>Knot Theory</strong>. This project has been a major turning point in my mathematical growth. While my foundational background was primarily in point-set topology, delving into knot theory has completely expanded my perspective on mathematical abstraction. It has allowed me to experience the powerful, broad applications of modern algebra—such as Combinatorial Group Theory and Geometric Group Theory—in solving topological problems.</p>
-    
-    <p>I am deeply fascinated by how we can use tools like the fundamental group, braids, and the Artin braid group to study topological spaces. I am eager to continue exploring advanced topics across Algebraic Topology, Homology, and K-Theory.</p>
+<div class="profile">
 
-    <hr>
+<img src="photo.jpg" alt="Arun Verma">
 
-    <h2>Research & Project Interests</h2>
-    <ul>
-        <li><strong>Low-Dimensional Topology & Knot Theory:</strong> Studying knots, links, braids, and the interactions between combinatorial structures and geometric spaces.</li>
-        <li><strong>Algebraic Topology:</strong> Homology theories, K-Theory, and the calculation of topological invariants using algebraic structures.</li>
-        <li><strong>Geometric & Combinatorial Group Theory:</strong> Utilizing group presentations, word problems, and infinite groups to probe topological properties.</li>
-    </ul>
+<div>
 
-    <hr>
+<h1>Arun Verma</h1>
 
-    <h2>Current Projects & Exploration</h2>
-    <h3>Summer Research Project | IISER Mohali</h3>
-    <p><strong>Topic:</strong> Structural Invariants and Algebraic Structures in Knot Theory<br>
-    <strong>Focus:</strong> Investigating the interplay between the Artin braid group and knot invariants. I am particularly fascinated by the deep connections between algebraic representations and topological classification.</p>
+<p>
+<strong>M.Sc. Mathematics Student</strong><br>
+Indian Institute of Technology (IIT) Kanpur
+</p>
 
-    <h3>An Open Question of Interest</h3>
-    <p>During my time at IISER Mohali, I have become captivated by classical unsolved problems in the field. A particular question I am actively thinking about is:</p>
-    <ul>
-        <li><strong>The Jones Polynomial Unknotting Problem:</strong> <em>Is there a non-trivial knot whose Jones polynomial is equal to 1?</em></li>
-    </ul>
+<p>
+Email:vermaa25@iitk.ac.in
+</p>
 
-    <hr>
+<p>
+Research Interests:
+Knot Theory • Algebraic Topology • Geometric Group Theory • Combinatorial Group Theory
+</p>
 
-    <h2>Education</h2>
-    <ul>
-        <li><strong>M.Sc. in Mathematics</strong> | Indian Institute of Technology (IIT) Kanpur, Expected 2027</li>
-        <li><strong>B.Sc. in Mathematics</strong> | [University Of Delhi], 2024</li>
-    </ul>
+</div>
+</div>
 
-<hr>
+</section>
 
-    <h2>Contact & Profiles</h2>
-    <p>Feel free to reach out to me for academic collaborations or discussions regarding Knot Theory!</p>
-    <ul>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/arun-verma-9381a5387/" target="_blank">Connect with me on LinkedIn</a></li>
-    </ul>
-    
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am an M.Sc. Mathematics student at the
+<span class="highlight">Indian Institute of Technology (IIT) Kanpur</span>.
+My mathematical journey is driven by a deep curiosity for abstract algebraic structures and a passion for finding intuitive ways to visualize and interpret them.
+This intersection of rigorous abstraction and geometric intuition is precisely why I am drawn to Topology, Algebra, and their synthesis in Algebraic Topology.
+</p>
+
+<p>
+Currently, I am a Summer Research Project fellow at
+<span class="highlight">IISER Mohali</span>,
+working in the fascinating field of <strong>Knot Theory</strong>.
+This project has been a major turning point in my mathematical growth.
+While my foundational background was primarily in point-set topology, delving into knot theory has completely expanded my perspective on mathematical abstraction.
+It has allowed me to experience the powerful applications of modern algebra—such as Combinatorial Group Theory and Geometric Group Theory—in solving topological problems.
+</p>
+
+<p>
+I am deeply fascinated by how we can use tools like the fundamental group, braids, and the Artin braid group to study topological spaces.
+</p>
+
+</section>
+
+<section id="research">
+
+<h2>Research Interests</h2>
+
+<ul>
+<li>Low-Dimensional Topology & Knot Theory</li>
+<li>Algebraic Topology</li>
+<li>Geometric Group Theory</li>
+<li>Combinatorial Group Theory</li>
+<li>Homology Theory</li>
+<li>K-Theory</li>
+</ul>
+
+</section>
+
+<section id="project">
+
+<h2>Summer Research Project</h2>
+
+<h3>IISER Mohali</h3>
+
+<p>
+<strong>Topic:</strong> Structural Invariants and Algebraic Structures in Knot Theory
+</p>
+
+<p>
+<strong>Focus:</strong>
+Investigating the interplay between the Artin braid group and knot invariants.
+I am particularly fascinated by the deep connections between algebraic representations and topological classification.
+</p>
+
+<h3>Question of Interest</h3>
+
+<ul>
+<li>
+<strong>The Jones Polynomial Unknotting Problem:</strong>
+Is there a non-trivial knot whose Jones polynomial is equal to 1?
+</li>
+</ul>
+
+</section>
+
+<section id="courses">
+
+<h2>Courses</h2>
+
+<details>
+<summary><strong>Completed Courses</strong></summary>
+
+<ul>
+<li>Real Analysis</li>
+<li>Linear Algebra</li>
+<li>Abstract Algebra</li>
+<li>Point-Set Topology</li>
+<li>Set Theory</li>
+<li>Knot Theory</li>
+<li>Representation Theory of Finite Groups</li>
+<li>Combinatorial and Geometric Group Theory</li>
+</ul>
+
+</details>
+
+<details>
+<summary><strong>Upcoming Courses</strong></summary>
+
+<ul>
+<li>Algebraic Topology</li>
+<li>Commutative Algebra</li>
+<li>Measure Theory</li>
+<li>Functional Analysis</li>
+</ul>
+
+</details>
+
+</section>
+
+<section id="computational">
+
+<h2>Computational Mathematics</h2>
+
+<h3>SageMath Projects</h3>
+
+<p>Coming Soon</p>
+
+<h3>SnapPy Projects</h3>
+
+<p>Coming Soon</p>
+
+</section>
+
+<section id="notes">
+
+<h2>Notes & Solutions</h2>
+
+<ul>
+<li>Real Analysis Notes</li>
+<li>Abstract Algebra Notes</li>
+<li>Point-Set Topology Notes</li>
+<li>Knot Theory Notes</li>
+<li>Problem Sets & Solutions</li>
+</ul>
+
+<p>Materials will be uploaded soon.</p>
+
+</section>
+
+<section id="youtube">
+
+<h2>YouTube Channel</h2>
+
+<p>
+Mathematics content, visualizations, and educational material.
+</p>
+
+<p>
+<a href="https://youtube.com/@thetheoremthinkers?si=3Ng1qPWrrmMoXLpN">
+Visit My YouTube Channel
+</a>
+</p>
+
+</section>
+
+<section id="links">
+
+<h2>Useful Links</h2>
+
+<div class="links">
+
+<a href="https://github.com/Arun-Vermz314">GitHub</a>
+
+<a href="https://www.linkedin.com/in/arun-verma-9381a5387/">LinkedIn</a>
+
+<a href="https://chat.whatsapp.com/H6S2EbCUtm8IS0eVds9IZv?s=cl&p=a&mlu=1">WhatsApp Group</a>
+
+</div>
+
+</section>
+
+<section id="8439482857">
+
+<h2>Contact</h2>
+
+<p>Email: vermaa25@iitk.ac.in</p>
+
+</section>
+
+<footer>
+
+© 2026 Arun Verma
+
+</footer>
 
 </body>
 </html>
